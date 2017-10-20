@@ -1,6 +1,8 @@
 import React from 'react'
 import auth from './../../auth/initAuth'
 //Routes
+import Login from './../Login'
+import Signup from './../Signup'
 import NotFound from './NotFound'
 import App from './../App';
 import PageOne from './../PageOne'
@@ -18,10 +20,12 @@ const Routes = (props) => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={App} />  
-        <PrivateRoute path="/PageOne" component={PageOne} />  
-        <Route path="/NotFound" component={NotFound} />  
-        <Route component={NotFound} />  
+        <Route path="/" exact component={App} />
+        <Route path="/Login" component={Login} />
+        <Route path="/Signup" component={Signup} />
+        <PrivateRoute path="/PageOne" component={PageOne} />
+        <Route path="/NotFound" component={NotFound} />
+        <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
   )

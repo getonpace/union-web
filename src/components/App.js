@@ -13,6 +13,8 @@ class App extends Component {
           </div>
 
           <div className="border color-silver">
+              <Link to='/Login'>Login | </Link>
+              <Link to='/Signup'>Signup | </Link>
               <Link to='/PageOne'>Go to Page One</Link>
           </div>
 
