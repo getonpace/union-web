@@ -21,3 +21,7 @@ at [https://github.com/iankhor/react-material-ui-boilerplate](https://github.com
 4. Update routes in the component called ```Routes``` in ```\src\components\shared\Routes.js```
 5. The component ```JSONDebugger``` can be used to display JSON data by passing the component a JSON file with the prop name ```json```.
 See example in ```\src\components\PageOne.js```  
+
+
+### Tutorial Link
+[Step by Step](https://medium.com/devtechtipstricks/a-simple-login-sign-up-platform-using-react-auth0-with-heroku-deployment-part-3-of-3-b12c08cf96a9)
